@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face{
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(fontes/idroid.otf) format ("opentype");
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#2da15d;
+    text-align: justify;
+    margin: 0px;
+    font-family:Verdana, Tahoma, sans-serif;
+
+
+    
+}
+
+h1{
+    
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+   
+}
+h2{
+    padding: 0px 15px 0px 15px;
+}
+
+p{
+
+    padding: 0px 15px 0px 15px;
+}
+header{
+    color: #fff;
+    background-image: linear-gradient(#45aa27 05%, #1f921f 10%, #084600 30%);
+    background-attachment: fixed;;
+    padding-top: 4px;
+    padding-right:0px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.329);
+   
+    
+    
+}
+header > h1{
+    font-size:xx-large;
+}
+header > p{
+ text-align: center;
+ font-size: 19px;
+}
+
+nav > a{
+
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 1px;
+    padding: 8px 15px;
+    border-radius: 5px;
+   
+}
+.nave:hover{
+    background-color:rgba(0, 71, 0, 0.815);
+    
+ 
+}
+main{
+    background-color: #fff;
+    width: min-content;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 17px;
+    padding: 25px;
+    
+    box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.329);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    min-width: 400px;
+    max-width: 800px;
+   
+}
+main > p > a{
+    
+    color: black;
+}
+.imagem{
+    text-align: center;
+
+}
+main > #video{
+    background-color: #084600;
+    
+  
+
+}
+iframe{
+    position:absolute;
+}
+article{
+    background-color: #2da17e8a;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+#lista > dt > a {
+    
+    text-decoration: none;
+    color: black;
+   
+}
+#lista2 {
+   
+    text-decoration: none;
+    color: black;
+   margin-top: -175px;
+   padding-left:250px;
+   margin-left:auto;
+   
+   
+}
+#lista2 > dt > a{
+    text-decoration: none;
+    color: black;
+}
+    
+    
+#lista0{
+    padding: auto ;
+    margin: auto;
+}
+

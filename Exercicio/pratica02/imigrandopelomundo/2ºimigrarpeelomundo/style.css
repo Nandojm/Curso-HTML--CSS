@@ -1,0 +1,78 @@
+@charset "URF-8";
+*{margin:auto;
+}
+body{background-color: aliceblue;
+    background-image: url(viagem-internacional-1.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin: 0px auto 190px auto;   
+   
+}
+
+    
+
+h1{
+    background-color: rgba(255, 255, 255, 0.815);
+   
+    text-align: center;
+    padding:25px auto ;
+    font-family:'Times New Roman', Times, serif;
+    margin:10px auto auto auto;
+}
+   main{
+        background-color: rgba(255, 255, 255, 0.507);
+        
+        margin: 65px auto auto auto;
+        height: 250px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(71, 71, 71, 0.61);
+
+   }
+h1#selecionar{
+    background-color: rgb(189, 189, 189) ;
+    width: 500px;
+    
+    margin: auto;
+     
+  
+}
+ a{
+     text-decoration: none;
+     color: black;
+ }
+div{
+    background-color: #f5f5f5ee;
+    margin: 20px;
+    border-radius:5px;
+    padding: 5px;
+    
+}
+div > a {
+    display: none;
+}
+div:hover > a {
+    display: block;
+}
+a:visited{
+    color: rgb(119, 117, 117);
+}
+
+p:hover{
+    background-color: rgb(179, 179, 179);
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.815);
+    font-style: italic;
+text-align: center;
+margin-top: 225px;
+font-weight: 600;
+color: rgb(0, 0, 0);
+font-size: 20px;
+border-radius: 5px;
+   
+    
+   
+    
+}
